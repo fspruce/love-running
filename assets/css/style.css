@@ -17,7 +17,6 @@ body {
   color: #3a3a3a;
   font-family: "Lato", sans-serif;
 }
-
 h1,
 h2,
 h3 {
@@ -39,26 +38,21 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
-
 header a {
   text-decoration: none;
   color: inherit;
 }
-
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
 }
-
 #menu > li {
   margin-bottom: 1em;
 }
-
 .active {
   border-bottom: 1px solid #3a3a3a;
 }
-
 nav {
   position: absolute;
   background-color: #ffffff;
@@ -69,7 +63,6 @@ nav {
   box-shadow: 0 2px 2px #3a3a3a;
   display: none;
 }
-
 /* Nav toggle */
 #nav-toggle:checked ~ nav {
   display: block;
@@ -89,7 +82,6 @@ main {
   flex: 1 0 auto;
   margin-top: 47px; /* Adjusted for header height */
 }
-
 /* Hero section */
 #hero {
   height: 600px;
@@ -97,7 +89,6 @@ main {
   background: url("../images/hero-image.webp") no-repeat center center / cover;
   position: relative;
 }
-
 #cover-text {
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(241, 109, 107, 0.7);
@@ -109,38 +100,31 @@ main {
   padding-top: 40px;
   padding-left: 10px;
 }
-
 #cover-text > h2,
 #cover-text > h3 {
   color: #ffffff;
 }
-
 /* Reasons section */
 #reasons {
   margin: 20px auto;
   width: 90%;
 }
-
 #reasons > h2 {
   font-size: 280%;
   margin-bottom: 20px;
   text-align: center;
 }
-
 #benefits div {
   line-height: 20px;
   margin-bottom: 20px;
 }
-
 #benefits div > hr {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
-
 #benefits div > p {
   padding: 0 20px;
 }
-
 #circle-cover-bg {
   background: url("../images/reasons-image.webp") no-repeat top center / cover;
   width: 90vw;
@@ -155,6 +139,28 @@ main {
   align-items: center;
   justify-content: center;
 }
+/* Meet-up times section */
+#times {
+  background: url("../images/dublin-city.webp") no-repeat center / cover;
+  /* Handles responsivity with the need for a media query */
+  display: flex;
+  flex-wrap: wrap;
+}
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  /* This will not wrap on screens of less than 400px wide.
+  Each div will expand to fill the available space on its row */
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* Creates a grid of meetup time divs over the background image */
+  border: 2px solid #ffffff;
+}
+#times h3 {
+  color: #fafafa;
+}
 
 /* Footer */
 #social-networks {
@@ -164,7 +170,6 @@ main {
   justify-content: space-evenly;
   list-style-type: none;
 }
-
 #social-networks i {
   font-size: 160%;
   padding: 5%;
@@ -181,19 +186,15 @@ main {
     width: fit-content;
     padding-right: 1rem;
   }
-
   #menu {
     display: flex;
   }
-
   #menu > li {
     padding-left: 1rem;
   }
-
   .nav-toggle-label {
     display: none;
   }
-
   #logo {
     font-size: 280%;
     line-height: 75px;
@@ -204,13 +205,11 @@ main {
   main {
     margin-top: 79px;
   }
-
   /* Hero */
   #cover-text {
     width: 300px;
     right: 50px;
   }
-
   /* Reasons Section */
   #benefits-physical,
   #benefits-mental {
@@ -218,12 +217,10 @@ main {
     flex-direction: column;
     width: 100%;
   }
-
   #benefits-physical > div,
   #benefits-mental > div {
     width: 75%;
   }
-
   #benefits-mental > div {
     text-align: end;
     align-self: flex-end;
@@ -244,23 +241,18 @@ main {
     display: flex;
     flex-direction: row;
   }
-
   #benefits > div {
     flex: 1;
   }
-
   #benfits-image {
     order: 0;
   }
-
   #benefits-mental {
     order: 1;
   }
-
   #benefits-mental > div {
     align-self: flex-start;
   }
-
   #benefits-physical > div {
     align-self: flex-end;
   }
