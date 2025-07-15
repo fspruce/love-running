@@ -255,9 +255,9 @@ main {
     order: 1;
   }
   #benefits-mental > div {
-    align-self: flex-start;
+    align-self: flex-end;
   }
   #benefits-physical > div {
-    align-self: flex-end;
+    align-self: flex-start;
   }
 }
