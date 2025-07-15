@@ -112,7 +112,7 @@ main {
   margin: 20px auto;
   width: 90%;
 }
-#reasons  h2 {
+#reasons h2 {
   font-size: 280%;
   margin-bottom: 20px;
   text-align: center;
@@ -130,7 +130,7 @@ main {
   padding: 0 20px;
 }
 #circle-cover-bg {
-  background: url('../images/reasons-image.webp') no-repeat top center / cover;
+  background: url("../images/reasons-image.webp") no-repeat top center / cover;
   width: 90vw;
   height: 90vw;
   margin-bottom: 20px;
